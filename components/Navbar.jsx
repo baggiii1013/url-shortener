@@ -1,8 +1,7 @@
-import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
 import logo from '@/public/logo.svg'
-import { useMemo } from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+import React, { useMemo } from 'react'
 
 const Navbar = () => {
   return (
@@ -13,7 +12,7 @@ const Navbar = () => {
       alt="Picture of the author"
       className='w-[500px]'
     /></div>
-            <ul className='flex gap-5 font-semibold font-mono text-2xl '>
+            <ul className={`flex gap-5 font-semibold text-2xl `}>
                 <Link href="/"><li className='p-1'>Home</li></Link>
                 <Link href="/generate"><li className='p-1'>Shorten</li></Link>
                 <Link href="/about"><li className='p-1'>About Us</li></Link>

@@ -10,6 +10,7 @@ export default {
       colors: {
         primary:'#007bff',
         btnColor:'#09427c',
+        main:'rgb(161, 206, 253)',
       },
     },
   },
