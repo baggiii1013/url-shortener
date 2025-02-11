@@ -11,6 +11,7 @@ export default {
         primary:'#007bff',
         btnColor:'#09427c',
         main:'rgb(161, 206, 253)',
+        bgColor:'rgb(37, 102, 172)',
       },
     },
   },

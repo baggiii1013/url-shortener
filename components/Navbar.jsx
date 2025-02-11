@@ -18,7 +18,7 @@ const Navbar = () => {
                 <Link href="/about"><li className='p-1'>About Us</li></Link>
                 <Link href="/contact"><li className='p-1'>Contact Us</li></Link>
                 <li className='flex gap-4 items-center text-white'>
-                  <Link href="/generate"><button className='bg-btnColor py-1 px-3 rounded-lg'>Try now</button></Link>
+                  <Link href="/shorten"><button className='bg-btnColor py-1 px-3 rounded-lg'>Try now</button></Link>
                   <Link href="/github"><button className='bg-btnColor py-1 px-3 rounded-lg'>GitHub</button></Link>
                 </li>
             </ul>

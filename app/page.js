@@ -14,7 +14,7 @@ export default function Home() {
             The most straight forward url shortener in the world with free QR code maker.
           </p>
           <div className='flex gap-4 items-center text-white'>
-                  <Link href="/generate"><button className='bg-btnColor px-4 py-3 text-lg rounded-lg'>Try now</button></Link>
+                  <Link href="/shorten"><button className='bg-btnColor px-4 py-3 text-lg rounded-lg'>Try now</button></Link>
                   <Link href="/github"><button className='bg-btnColor px-4 py-3 text-lg rounded-lg'>GitHub</button></Link>
                 </div>
         </div>
